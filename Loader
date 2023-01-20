@@ -1,5 +1,6 @@
 local gamelist = {
-    [994732206]  = "https://raw.githubusercontent.com/x9PSwiftz/Rezy/main/bloxfruit"
+    [994732206]  = "https://raw.githubusercontent.com/x9PSwiftz/Rezy/main/bloxfruit",
+    [2655311011] = "https://raw.githubusercontent.com/x9PSwiftz/Rezy/main/ads"
 }
 local checkgame = gamelist[game.gameId]
 if gamelist[game.gameId] then 
