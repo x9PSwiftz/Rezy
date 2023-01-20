@@ -1,5 +1,5 @@
 local gamelist = {
-    [994732206]  = "bloxfruitLink"
+    [994732206]  = "https://raw.githubusercontent.com/x9PSwiftz/Rezy/main/bloxfruit"
 }
 local checkgame = gamelist[game.gameId]
 if gamelist[game.gameId] then 
