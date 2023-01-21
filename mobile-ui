@@ -1,3 +1,4 @@
+--All Right by @Xenon Hub 4.0
 local DiscordLib = {}
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -143,7 +144,7 @@ function DiscordLib:Window(text)
 	Title.BackgroundTransparency = 1.000
 	Title.Position = UDim2.new(0.0102790017, 0, 0, 0)
 	Title.Size = UDim2.new(0, 192, 0, 23)
-	Title.Font = Enum.Font.Enum.Font.GothamSemibold
+	Title.Font = Enum.Font.Enum.Font.GothamMedium
 	Title.Text = text
 	Title.TextColor3 = Color3.fromRGB(99, 102, 109)
 	Title.TextSize = 13.000
@@ -155,7 +156,7 @@ function DiscordLib:Window(text)
 	CloseBtn.BackgroundTransparency = 0
 	CloseBtn.Position = UDim2.new(0.959063113, 0, -0.0169996787, 0)
 	CloseBtn.Size = UDim2.new(0, 28, 0, 22)
-	CloseBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+	CloseBtn.Font = Enum.Font.Enum.Font.GothamMedium
 	CloseBtn.Text = ""
 	CloseBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 	CloseBtn.TextSize = 14.000
@@ -177,7 +178,7 @@ function DiscordLib:Window(text)
 	MinimizeBtn.BackgroundTransparency = 0
 	MinimizeBtn.Position = UDim2.new(0.917947114, 0, -0.0169996787, 0)
 	MinimizeBtn.Size = UDim2.new(0, 28, 0, 22)
-	MinimizeBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+	MinimizeBtn.Font = Enum.Font.Enum.Font.GothamMedium
 	MinimizeBtn.Text = ""
 	MinimizeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 	MinimizeBtn.TextSize = 14.000
@@ -236,7 +237,7 @@ function DiscordLib:Window(text)
 	UserName.BorderSizePixel = 0
 	UserName.Position = UDim2.new(0.230000004, 0, 0.115999997, 0)
 	UserName.Size = UDim2.new(0, 98, 0, 17)
-	UserName.Font = Enum.Font.Enum.Font.GothamSemibold
+	UserName.Font = Enum.Font.Enum.Font.GothamMedium
 	UserName.TextColor3 = Color3.fromRGB(255, 255, 255)
 	UserName.TextSize = 13.000
 	UserName.TextXAlignment = Enum.TextXAlignment.Left
@@ -249,7 +250,7 @@ function DiscordLib:Window(text)
 	UserTag.BorderSizePixel = 0
 	UserTag.Position = UDim2.new(0.230000004, 0, 0.455000013, 0)
 	UserTag.Size = UDim2.new(0, 95, 0, 17)
-	UserTag.Font = Enum.Font.Enum.Font.GothamSemibold
+	UserTag.Font = Enum.Font.Enum.Font.GothamMedium
 	UserTag.TextColor3 = Color3.fromRGB(255, 255, 255)
 	UserTag.TextSize = 13.000
 	UserTag.TextTransparency = 0.300
@@ -347,7 +348,7 @@ function DiscordLib:Window(text)
 	SettingsOpenBtn.BackgroundTransparency = 1.000
 	SettingsOpenBtn.Position = UDim2.new(0.849161983, 0, 0.279069781, 0)
 	SettingsOpenBtn.Size = UDim2.new(0, 18, 0, 18)
-	SettingsOpenBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+	SettingsOpenBtn.Font = Enum.Font.Enum.Font.GothamMedium
 	SettingsOpenBtn.Text = ""
 	SettingsOpenBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 	SettingsOpenBtn.TextSize = 14.000
@@ -431,7 +432,7 @@ function DiscordLib:Window(text)
 	CloseSettingsBtn.Selectable = false
 	CloseSettingsBtn.Size = UDim2.new(0, 30, 0, 30)
 	CloseSettingsBtn.AutoButtonColor = false
-	CloseSettingsBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+	CloseSettingsBtn.Font = Enum.Font.Enum.Font.GothamMedium
 	CloseSettingsBtn.Text = ""
 	CloseSettingsBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 	CloseSettingsBtn.TextSize = 14.000
@@ -520,7 +521,7 @@ function DiscordLib:Window(text)
 	TextLabel.BackgroundTransparency = 1.000
 	TextLabel.Position = UDim2.new(-0.0666666701, 0, 1.06666672, 0)
 	TextLabel.Size = UDim2.new(0, 34, 0, 22)
-	TextLabel.Font = Enum.Font.Enum.Font.GothamSemibold
+	TextLabel.Font = Enum.Font.Enum.Font.GothamMedium
 	TextLabel.Text = "rightctrl"
 	TextLabel.TextColor3 = Color3.fromRGB(113, 117, 123)
 	TextLabel.TextSize = 11.000
@@ -546,7 +547,7 @@ function DiscordLib:Window(text)
 	UsernameText.BackgroundTransparency = 1.000
 	UsernameText.Position = UDim2.new(0.0419999994, 0, 0.154714286, 0)
 	UsernameText.Size = UDim2.new(0, 65, 0, 19)
-	UsernameText.Font = Enum.Font.Enum.Font.GothamSemibold
+	UsernameText.Font = Enum.Font.Enum.Font.GothamMedium
 	UsernameText.Text = "USERNAME"
 	UsernameText.TextColor3 = Color3.fromRGB(126, 130, 136)
 	UsernameText.TextSize = 11.000
@@ -563,7 +564,7 @@ function DiscordLib:Window(text)
 	UserSettingsPadUser.Parent = UserSettingsPadUserTag
 	UserSettingsPadUser.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UserSettingsPadUser.BackgroundTransparency = 1.000
-	UserSettingsPadUser.Font = Enum.Font.Enum.Font.GothamSemibold
+	UserSettingsPadUser.Font = Enum.Font.Enum.Font.GothamMedium
 	UserSettingsPadUser.TextColor3 = Color3.fromRGB(255, 255, 255)
 	UserSettingsPadUser.TextSize = 13.000
 	UserSettingsPadUser.TextXAlignment = Enum.TextXAlignment.Left
@@ -581,7 +582,7 @@ function DiscordLib:Window(text)
 	UserSettingsPadTag.BackgroundTransparency = 1.000
 	UserSettingsPadTag.Position = UDim2.new(0.0419999994, 0, 0.493999988, 0)
 	UserSettingsPadTag.Size = UDim2.new(0, 65, 0, 19)
-	UserSettingsPadTag.Font = Enum.Font.Enum.Font.GothamSemibold
+	UserSettingsPadTag.Font = Enum.Font.Enum.Font.GothamMedium
 	UserSettingsPadTag.Text = "#" .. tag
 	UserSettingsPadTag.TextColor3 = Color3.fromRGB(184, 186, 189)
 	UserSettingsPadTag.TextSize = 13.000
@@ -592,7 +593,7 @@ function DiscordLib:Window(text)
 	EditBtn.BackgroundColor3 = Color3.fromRGB(116, 127, 141)
 	EditBtn.Position = UDim2.new(0.797671914, 0, 0.232142866, 0)
 	EditBtn.Size = UDim2.new(0, 55, 0, 30)
-	EditBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+	EditBtn.Font = Enum.Font.Enum.Font.GothamMedium
 	EditBtn.Text = "Edit"
 	EditBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 	EditBtn.TextSize = 14.000
@@ -659,7 +660,7 @@ function DiscordLib:Window(text)
 	ChangeAvatarText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	ChangeAvatarText.BackgroundTransparency = 1.000
 	ChangeAvatarText.Size = UDim2.new(0, 71, 0, 71)
-	ChangeAvatarText.Font = Enum.Font.Enum.Font.GothamSemibold
+	ChangeAvatarText.Font = Enum.Font.Enum.Font.GothamMedium
 	ChangeAvatarText.Text = "CHAGNE    AVATAR"
 	ChangeAvatarText.TextColor3 = Color3.fromRGB(255, 255, 255)
 	ChangeAvatarText.TextSize = 11.000
@@ -700,7 +701,7 @@ function DiscordLib:Window(text)
 		NotificationHolder.Position = UDim2.new(-0.00881057233, 0, -0.00266666664, 0)
 		NotificationHolder.Size = UDim2.new(0, 687, 0, 375)
 		NotificationHolder.AutoButtonColor = false
-		NotificationHolder.Font = Enum.Font.Enum.Font.GothamSemibold
+		NotificationHolder.Font = Enum.Font.Enum.Font.GothamMedium
 		NotificationHolder.Text = ""
 		NotificationHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolder.TextSize = 14.000
@@ -780,7 +781,7 @@ function DiscordLib:Window(text)
 		Text1.BackgroundTransparency = 1.000
 		Text1.Position = UDim2.new(-0.000594122568, 0, 0.0202020202, 0)
 		Text1.Size = UDim2.new(0, 346, 0, 68)
-		Text1.Font = Enum.Font.Enum.Font.GothamSemibold
+		Text1.Font = Enum.Font.Enum.Font.GothamMedium
 		Text1.Text = "Change your avatar"
 		Text1.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Text1.TextSize = 20.000
@@ -791,7 +792,7 @@ function DiscordLib:Window(text)
 		Text2.BackgroundTransparency = 1.000
 		Text2.Position = UDim2.new(-0.000594122568, 0, 0.141587839, 0)
 		Text2.Size = UDim2.new(0, 346, 0, 63)
-		Text2.Font = Enum.Font.Enum.Font.GothamSemibold
+		Text2.Font = Enum.Font.Enum.Font.GothamMedium
 		Text2.Text = "Enter your new profile in a Roblox decal link."
 		Text2.TextColor3 = Color3.fromRGB(171, 172, 176)
 		Text2.TextSize = 14.000
@@ -825,7 +826,7 @@ function DiscordLib:Window(text)
 		AvatarTextbox.BackgroundTransparency = 1.000
 		AvatarTextbox.Position = UDim2.new(0.0378548913, 0, 0, 0)
 		AvatarTextbox.Size = UDim2.new(0, 293, 0, 37)
-		AvatarTextbox.Font = Enum.Font.Enum.Font.GothamSemibold
+		AvatarTextbox.Font = Enum.Font.Enum.Font.GothamMedium
 		AvatarTextbox.Text = ""
 		AvatarTextbox.TextColor3 = Color3.fromRGB(193, 195, 197)
 		AvatarTextbox.TextSize = 14.000
@@ -836,7 +837,7 @@ function DiscordLib:Window(text)
 		ChangeBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 		ChangeBtn.Position = UDim2.new(0.749670506, 0, 0.823232353, 0)
 		ChangeBtn.Size = UDim2.new(0, 76, 0, 27)
-		ChangeBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+		ChangeBtn.Font = Enum.Font.Enum.Font.GothamMedium
 		ChangeBtn.Text = "Change"
 		ChangeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 		ChangeBtn.TextSize = 13.000
@@ -891,7 +892,7 @@ function DiscordLib:Window(text)
 		CloseBtn2.BackgroundTransparency = 1.000
 		CloseBtn2.Position = UDim2.new(0.898000002, 0, 0, 0)
 		CloseBtn2.Size = UDim2.new(0, 26, 0, 26)
-		CloseBtn2.Font = Enum.Font.Enum.Font.GothamSemibold
+		CloseBtn2.Font = Enum.Font.Enum.Font.GothamMedium
 		CloseBtn2.Text = ""
 		CloseBtn2.TextColor3 = Color3.fromRGB(255, 255, 255)
 		CloseBtn2.TextSize = 14.000
@@ -911,7 +912,7 @@ function DiscordLib:Window(text)
 		CloseBtn1.BackgroundTransparency = 1.000
 		CloseBtn1.Position = UDim2.new(0.495000005, 0, 0.823000014, 0)
 		CloseBtn1.Size = UDim2.new(0, 76, 0, 27)
-		CloseBtn1.Font = Enum.Font.Enum.Font.GothamSemibold
+		CloseBtn1.Font = Enum.Font.Enum.Font.GothamMedium
 		CloseBtn1.Text = "Close"
 		CloseBtn1.TextColor3 = Color3.fromRGB(255, 255, 255)
 		CloseBtn1.TextSize = 13.000
@@ -926,7 +927,7 @@ function DiscordLib:Window(text)
 		ResetBtn.BackgroundTransparency = 1.000
 		ResetBtn.Position = UDim2.new(0.260895967, 0, 0.823000014, 0)
 		ResetBtn.Size = UDim2.new(0, 76, 0, 27)
-		ResetBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+		ResetBtn.Font = Enum.Font.Enum.Font.GothamMedium
 		ResetBtn.Text = "Reset"
 		ResetBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 		ResetBtn.TextSize = 13.000
@@ -1035,7 +1036,7 @@ function DiscordLib:Window(text)
 	UserPanelUser.Parent = UserPanelUserTag
 	UserPanelUser.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UserPanelUser.BackgroundTransparency = 1.000
-	UserPanelUser.Font = Enum.Font.Enum.Font.GothamSemibold
+	UserPanelUser.Font = Enum.Font.Enum.Font.GothamMedium
 	UserPanelUser.TextColor3 = Color3.fromRGB(255, 255, 255)
 	UserPanelUser.TextSize = 17.000
 	UserPanelUser.TextXAlignment = Enum.TextXAlignment.Left
@@ -1054,7 +1055,7 @@ function DiscordLib:Window(text)
 	UserPanelTag.BackgroundTransparency = 1.000
 	UserPanelTag.Position = UDim2.new(0.0419999994, 0, 0.493999988, 0)
 	UserPanelTag.Size = UDim2.new(0, 65, 0, 19)
-	UserPanelTag.Font = Enum.Font.Enum.Font.Enum.Font.GothamSemibold
+	UserPanelTag.Font = Enum.Font.Enum.Font.Enum.Font.GothamMedium
 	UserPanelTag.Text = "#" .. tag
 	UserPanelTag.TextColor3 = Color3.fromRGB(184, 186, 189)
 	UserPanelTag.TextSize = 17.000
@@ -1077,7 +1078,7 @@ function DiscordLib:Window(text)
 	MyAccountBtn.Position = UDim2.new(0.271232396, 0, 0.101614028, 0)
 	MyAccountBtn.Size = UDim2.new(0, 160, 0, 30)
 	MyAccountBtn.AutoButtonColor = false
-	MyAccountBtn.Font = Enum.Font.Enum.Font.Enum.Font.GothamSemibold
+	MyAccountBtn.Font = Enum.Font.Enum.Font.Enum.Font.GothamMedium
 	MyAccountBtn.Text = ""
 	MyAccountBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 	MyAccountBtn.TextSize = 14.000
@@ -1093,7 +1094,7 @@ function DiscordLib:Window(text)
 	MyAccountBtnTitle.BorderSizePixel = 0
 	MyAccountBtnTitle.Position = UDim2.new(0.0759999976, 0, -0.166999996, 0)
 	MyAccountBtnTitle.Size = UDim2.new(0, 95, 0, 39)
-	MyAccountBtnTitle.Font = Enum.Font.Enum.Font.Enum.Font.GothamSemibold
+	MyAccountBtnTitle.Font = Enum.Font.Enum.Font.Enum.Font.GothamMedium
 	MyAccountBtnTitle.Text = "My Account"
 	MyAccountBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 	MyAccountBtnTitle.TextSize = 14.000
@@ -1105,7 +1106,7 @@ function DiscordLib:Window(text)
 	SettingsTitle.BackgroundTransparency = 1.000
 	SettingsTitle.Position = UDim2.new(0.308999985, 0, 0.0450000018, 0)
 	SettingsTitle.Size = UDim2.new(0, 65, 0, 19)
-	SettingsTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+	SettingsTitle.Font = Enum.Font.Enum.Font.GothamMedium
 	SettingsTitle.Text = "SETTINGS"
 	SettingsTitle.TextColor3 = Color3.fromRGB(142, 146, 152)
 	SettingsTitle.TextSize = 11.000
@@ -1117,7 +1118,7 @@ function DiscordLib:Window(text)
 	DiscordInfo.BackgroundTransparency = 1.000
 	DiscordInfo.Position = UDim2.new(0.304721028, 0, 0.821333349, 0)
 	DiscordInfo.Size = UDim2.new(0, 133, 0, 44)
-	DiscordInfo.Font = Enum.Font.Enum.Font.Enum.Font.GothamSemibold
+	DiscordInfo.Font = Enum.Font.Enum.Font.Enum.Font.GothamMedium
 	DiscordInfo.Text = "Stable 1.0.0 (00001)  Host 0.0.0.1                Roblox Lua Engine    "
 	DiscordInfo.TextColor3 = Color3.fromRGB(101, 108, 116)
 	DiscordInfo.TextSize = 13.000
@@ -1131,7 +1132,7 @@ function DiscordLib:Window(text)
 	CurrentSettingOpen.BackgroundTransparency = 1.000
 	CurrentSettingOpen.Position = UDim2.new(1.07294846, 0, 0.0450000018, 0)
 	CurrentSettingOpen.Size = UDim2.new(0, 65, 0, 19)
-	CurrentSettingOpen.Font = Enum.Font.Enum.Font.GothamSemibold
+	CurrentSettingOpen.Font = Enum.Font.Enum.Font.GothamMedium
 	CurrentSettingOpen.Text = "MY ACCOUNT"
 	CurrentSettingOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
 	CurrentSettingOpen.TextSize = 14.000
@@ -1168,7 +1169,7 @@ function DiscordLib:Window(text)
 		NotificationHolder.Position = UDim2.new(-0.00881057233, 0, -0.00266666664, 0)
 		NotificationHolder.Size = UDim2.new(0, 687, 0, 375)
 		NotificationHolder.AutoButtonColor = false
-		NotificationHolder.Font = Enum.Font.Enum.Font.GothamSemibold
+		NotificationHolder.Font = Enum.Font.Enum.Font.GothamMedium
 		NotificationHolder.Text = ""
 		NotificationHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolder.TextSize = 14.000
@@ -1245,7 +1246,7 @@ function DiscordLib:Window(text)
 		Text1.BackgroundTransparency = 1.000
 		Text1.Position = UDim2.new(-0.000594122568, 0, 0.0202020202, 0)
 		Text1.Size = UDim2.new(0, 346, 0, 68)
-		Text1.Font = Enum.Font.Enum.Font.GothamSemibold
+		Text1.Font = Enum.Font.Enum.Font.GothamMedium
 		Text1.Text = "Change your username"
 		Text1.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Text1.TextSize = 20.000
@@ -1256,7 +1257,7 @@ function DiscordLib:Window(text)
 		Text2.BackgroundTransparency = 1.000
 		Text2.Position = UDim2.new(-0.000594122568, 0, 0.141587839, 0)
 		Text2.Size = UDim2.new(0, 346, 0, 63)
-		Text2.Font = Enum.Font.Enum.Font.GothamSemibold
+		Text2.Font = Enum.Font.Enum.Font.GothamMedium
 		Text2.Text = "Enter your new username."
 		Text2.TextColor3 = Color3.fromRGB(171, 172, 176)
 		Text2.TextSize = 14.000
@@ -1289,7 +1290,7 @@ function DiscordLib:Window(text)
 		UsernameTextbox.BackgroundTransparency = 1.000
 		UsernameTextbox.Position = UDim2.new(0.0378548913, 0, 0, 0)
 		UsernameTextbox.Size = UDim2.new(0, 221, 0, 37)
-		UsernameTextbox.Font = Enum.Font.Enum.Font.GothamSemibold
+		UsernameTextbox.Font = Enum.Font.Enum.Font.GothamMedium
 		UsernameTextbox.Text = user
 		UsernameTextbox.TextColor3 = Color3.fromRGB(193, 195, 197)
 		UsernameTextbox.TextSize = 14.000
@@ -1309,7 +1310,7 @@ function DiscordLib:Window(text)
 		HashtagLabel.BackgroundTransparency = 1.000
 		HashtagLabel.Position = UDim2.new(0.765877604, 0, -0.0546001866, 0)
 		HashtagLabel.Size = UDim2.new(0, 23, 0, 37)
-		HashtagLabel.Font = Enum.Font.Enum.Font.GothamSemibold
+		HashtagLabel.Font = Enum.Font.Enum.Font.GothamMedium
 		HashtagLabel.Text = "#"
 		HashtagLabel.TextColor3 = Color3.fromRGB(79, 82, 88)
 		HashtagLabel.TextSize = 16.000
@@ -1320,7 +1321,7 @@ function DiscordLib:Window(text)
 		TagTextbox.BackgroundTransparency = 1.000
 		TagTextbox.Position = UDim2.new(0.824999988, 0, -0.0280000009, 0)
 		TagTextbox.Size = UDim2.new(0, 59, 0, 38)
-		TagTextbox.Font = Enum.Font.Enum.Font.GothamSemibold
+		TagTextbox.Font = Enum.Font.Enum.Font.GothamMedium
 		TagTextbox.PlaceholderColor3 = Color3.fromRGB(210, 211, 212)
 		TagTextbox.Text = tag
 		TagTextbox.TextColor3 = Color3.fromRGB(193, 195, 197)
@@ -1332,7 +1333,7 @@ function DiscordLib:Window(text)
 		ChangeBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 		ChangeBtn.Position = UDim2.new(0.749670506, 0, 0.823232353, 0)
 		ChangeBtn.Size = UDim2.new(0, 76, 0, 27)
-		ChangeBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+		ChangeBtn.Font = Enum.Font.Enum.Font.GothamMedium
 		ChangeBtn.Text = "Change"
 		ChangeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 		ChangeBtn.TextSize = 13.000
@@ -1392,7 +1393,7 @@ function DiscordLib:Window(text)
 		CloseBtn2.BackgroundTransparency = 1.000
 		CloseBtn2.Position = UDim2.new(0.898000002, 0, 0, 0)
 		CloseBtn2.Size = UDim2.new(0, 26, 0, 26)
-		CloseBtn2.Font = Enum.Font.Enum.Font.GothamSemibold
+		CloseBtn2.Font = Enum.Font.Enum.Font.GothamMedium
 		CloseBtn2.Text = ""
 		CloseBtn2.TextColor3 = Color3.fromRGB(255, 255, 255)
 		CloseBtn2.TextSize = 14.000
@@ -1412,7 +1413,7 @@ function DiscordLib:Window(text)
 		CloseBtn1.BackgroundTransparency = 1.000
 		CloseBtn1.Position = UDim2.new(0.495000005, 0, 0.823000014, 0)
 		CloseBtn1.Size = UDim2.new(0, 76, 0, 27)
-		CloseBtn1.Font = Enum.Font.Enum.Font.GothamSemibold
+		CloseBtn1.Font = Enum.Font.Enum.Font.GothamMedium
 		CloseBtn1.Text = "Close"
 		CloseBtn1.TextColor3 = Color3.fromRGB(255, 255, 255)
 		CloseBtn1.TextSize = 13.000
@@ -1535,7 +1536,7 @@ function DiscordLib:Window(text)
 		NotificationHolderMain.Position = UDim2.new(0, 0, 0.0560000017, 0)
 		NotificationHolderMain.Size = UDim2.new(0, 681, 0, 374)
 		NotificationHolderMain.AutoButtonColor = false
-		NotificationHolderMain.Font = Enum.Font.Enum.Font.GothamSemibold
+		NotificationHolderMain.Font = Enum.Font.Enum.Font.GothamMedium
 		NotificationHolderMain.Text = ""
 		NotificationHolderMain.TextColor3 = Color3.fromRGB(0, 0, 0)
 		NotificationHolderMain.TextSize = 14.000
@@ -1590,7 +1591,7 @@ function DiscordLib:Window(text)
 		Text1.BackgroundTransparency = 1.000
 		Text1.Position = UDim2.new(-0.000594122568, 0, 0.0202020202, 0)
 		Text1.Size = UDim2.new(0, 346, 0, 68)
-		Text1.Font = Enum.Font.Enum.Font.GothamSemibold
+		Text1.Font = Enum.Font.Enum.Font.GothamMedium
 		Text1.Text = titletext
 		Text1.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Text1.TextSize = 20.000
@@ -1601,7 +1602,7 @@ function DiscordLib:Window(text)
 		Text2.BackgroundTransparency = 1.000
 		Text2.Position = UDim2.new(0.106342293, 0, 0.317724228, 0)
 		Text2.Size = UDim2.new(0, 272, 0, 63)
-		Text2.Font = Enum.Font.Enum.Font.GothamSemibold
+		Text2.Font = Enum.Font.Enum.Font.GothamMedium
 		Text2.Text = desctext
 		Text2.TextColor3 = Color3.fromRGB(171, 172, 176)
 		Text2.TextSize = 14.000
@@ -1612,7 +1613,7 @@ function DiscordLib:Window(text)
 		AlrightBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 		AlrightBtn.Position = UDim2.new(0.0332369953, 0, 0.789141417, 0)
 		AlrightBtn.Size = UDim2.new(0, 322, 0, 27)
-		AlrightBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+		AlrightBtn.Font = Enum.Font.Enum.Font.GothamMedium
 		AlrightBtn.Text = btntext
 		AlrightBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 		AlrightBtn.TextSize = 13.000
@@ -1673,7 +1674,7 @@ function DiscordLib:Window(text)
 		Server.Position = UDim2.new(0.125, 0, 0, 0)
 		Server.Size = UDim2.new(0, 47, 0, 47)
 		Server.AutoButtonColor = false
-		Server.Font = Enum.Font.Enum.Font.GothamSemibold
+		Server.Font = Enum.Font.Enum.Font.GothamMedium
 		Server.Text = ""
 		Server.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Server.TextSize = 18.000
@@ -1760,7 +1761,7 @@ function DiscordLib:Window(text)
 		ServerTitle.BorderSizePixel = 0
 		ServerTitle.Position = UDim2.new(0.0751359761, 0, 0, 0)
 		ServerTitle.Size = UDim2.new(0, 97, 0, 39)
-		ServerTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+		ServerTitle.Font = Enum.Font.Enum.Font.GothamMedium
 		ServerTitle.Text = text
 		ServerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 		ServerTitle.TextSize = 15.000
@@ -1813,7 +1814,7 @@ function DiscordLib:Window(text)
 		Hashtag.BorderSizePixel = 0
 		Hashtag.Position = UDim2.new(0.0279720277, 0, 0, 0)
 		Hashtag.Size = UDim2.new(0, 19, 0, 39)
-		Hashtag.Font = Enum.Font.Enum.Font.GothamSemibold
+		Hashtag.Font = Enum.Font.Enum.Font.GothamMedium
 		Hashtag.Text = "#"
 		Hashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
 		Hashtag.TextSize = 25.000
@@ -1825,7 +1826,7 @@ function DiscordLib:Window(text)
 		ChannelTitle.BorderSizePixel = 0
 		ChannelTitle.Position = UDim2.new(0.0862470865, 0, 0, 0)
 		ChannelTitle.Size = UDim2.new(0, 95, 0, 39)
-		ChannelTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+		ChannelTitle.Font = Enum.Font.Enum.Font.GothamMedium
 		ChannelTitle.Text = ""
 		ChannelTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 		ChannelTitle.TextSize = 15.000
@@ -2024,7 +2025,7 @@ function DiscordLib:Window(text)
 			ChannelBtn.Position = UDim2.new(0.24118948, 0, 0.578947365, 0)
 			ChannelBtn.Size = UDim2.new(0, 160, 0, 30)
 			ChannelBtn.AutoButtonColor = false
-			ChannelBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+			ChannelBtn.Font = Enum.Font.Enum.Font.GothamMedium
 			ChannelBtn.Text = ""
 			ChannelBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 			ChannelBtn.TextSize = 14.000
@@ -2040,7 +2041,7 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.BorderSizePixel = 0
 			ChannelBtnHashtag.Position = UDim2.new(0.0279720314, 0, 0, 0)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
-			ChannelBtnHashtag.Font = Enum.Font.Enum.Font.GothamSemibold
+			ChannelBtnHashtag.Font = Enum.Font.Enum.Font.GothamMedium
 			ChannelBtnHashtag.Text = "#"
 			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
 			ChannelBtnHashtag.TextSize = 21.000
@@ -2052,7 +2053,7 @@ function DiscordLib:Window(text)
 			ChannelBtnTitle.BorderSizePixel = 0
 			ChannelBtnTitle.Position = UDim2.new(0.173747092, 0, -0.166666672, 0)
 			ChannelBtnTitle.Size = UDim2.new(0, 95, 0, 39)
-			ChannelBtnTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+			ChannelBtnTitle.Font = Enum.Font.Enum.Font.GothamMedium
 			ChannelBtnTitle.Text = text
 			ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
 			ChannelBtnTitle.TextSize = 14.000
@@ -2134,7 +2135,7 @@ function DiscordLib:Window(text)
 				Button.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
-				Button.Font = Enum.Font.Enum.Font.GothamSemibold
+				Button.Font = Enum.Font.Enum.Font.GothamMedium
 				Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Button.TextSize = 14.000
 				Button.Text = text
@@ -2187,7 +2188,7 @@ function DiscordLib:Window(text)
 				Toggle.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
 				Toggle.Size = UDim2.new(0, 401, 0, 30)
 				Toggle.AutoButtonColor = false
-				Toggle.Font = Enum.Font.Enum.Font.GothamSemibold
+				Toggle.Font = Enum.Font.Enum.Font.GothamMedium
 				Toggle.Text = ""
 				Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Toggle.TextSize = 14.000
@@ -2198,7 +2199,7 @@ function DiscordLib:Window(text)
 				ToggleTitle.BackgroundTransparency = 1.000
 				ToggleTitle.Position = UDim2.new(0, 5, 0, 0)
 				ToggleTitle.Size = UDim2.new(0, 200, 0, 30)
-				ToggleTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+				ToggleTitle.Font = Enum.Font.Enum.Font.GothamMedium
 				ToggleTitle.Text = text
 				ToggleTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
 				ToggleTitle.TextSize = 14.000
@@ -2317,7 +2318,7 @@ function DiscordLib:Window(text)
 				Slider.Position = UDim2.new(0, 0, 0.216560602, 0)
 				Slider.Size = UDim2.new(0, 401, 0, 38)
 				Slider.AutoButtonColor = false
-				Slider.Font = Enum.Font.Enum.Font.GothamSemibold
+				Slider.Font = Enum.Font.Enum.Font.GothamMedium
 				Slider.Text = ""
 				Slider.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Slider.TextSize = 14.000
@@ -2328,7 +2329,7 @@ function DiscordLib:Window(text)
 				SliderTitle.BackgroundTransparency = 1.000
 				SliderTitle.Position = UDim2.new(0, 5, 0, -4)
 				SliderTitle.Size = UDim2.new(0, 200, 0, 27)
-				SliderTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+				SliderTitle.Font = Enum.Font.Enum.Font.GothamMedium
 				SliderTitle.Text = text
 				SliderTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
 				SliderTitle.TextSize = 14.000
@@ -2414,7 +2415,7 @@ function DiscordLib:Window(text)
 				ValueLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				ValueLabel.BackgroundTransparency = 1.000
 				ValueLabel.Size = UDim2.new(0, 36, 0, 21)
-				ValueLabel.Font = Enum.Font.Enum.Font.GothamSemibold
+				ValueLabel.Font = Enum.Font.Enum.Font.GothamMedium
 				ValueLabel.Text = tostring(start and math.floor((start / max) * (max - min) + min) or 0)
 				ValueLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 				ValueLabel.TextSize = 10.000
@@ -2520,7 +2521,7 @@ function DiscordLib:Window(text)
 				DropdownTitle.BackgroundTransparency = 1.000
 				DropdownTitle.Position = UDim2.new(0, 5, 0, 0)
 				DropdownTitle.Size = UDim2.new(0, 200, 0, 29)
-				DropdownTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+				DropdownTitle.Font = Enum.Font.Enum.Font.GothamMedium
 				DropdownTitle.Text = text
 				DropdownTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
 				DropdownTitle.TextSize = 14.000
@@ -2555,7 +2556,7 @@ function DiscordLib:Window(text)
 				CurrentSelectedText.BackgroundTransparency = 1.000
 				CurrentSelectedText.Position = UDim2.new(0.0178571437, 0, 0, 0)
 				CurrentSelectedText.Size = UDim2.new(0, 193, 0, 32)
-				CurrentSelectedText.Font = Enum.Font.Enum.Font.GothamSemibold
+				CurrentSelectedText.Font = Enum.Font.Enum.Font.GothamMedium
 				CurrentSelectedText.Text = "..."
 				CurrentSelectedText.TextColor3 = Color3.fromRGB(212, 212, 212)
 				CurrentSelectedText.TextSize = 14.000
@@ -2575,7 +2576,7 @@ function DiscordLib:Window(text)
 				DropdownFrameBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				DropdownFrameBtn.BackgroundTransparency = 1.000
 				DropdownFrameBtn.Size = UDim2.new(0, 392, 0, 32)
-				DropdownFrameBtn.Font = Enum.Font.Enum.Font.GothamSemibold
+				DropdownFrameBtn.Font = Enum.Font.Enum.Font.GothamMedium
 				DropdownFrameBtn.Text = ""
 				DropdownFrameBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 				DropdownFrameBtn.TextSize = 14.000
@@ -2618,7 +2619,7 @@ function DiscordLib:Window(text)
 				DropItemHolderLabel.BackgroundTransparency = 1.000
 				DropItemHolderLabel.Position = UDim2.new(0.0178571437, 0, 0, 0)
 				DropItemHolderLabel.Size = UDim2.new(0, 193, 0, 13)
-				DropItemHolderLabel.Font = Enum.Font.Enum.Font.GothamSemibold
+				DropItemHolderLabel.Font = Enum.Font.Enum.Font.GothamMedium
 				DropItemHolderLabel.Text = ""
 				DropItemHolderLabel.TextColor3 = Color3.fromRGB(212, 212, 212)
 				DropItemHolderLabel.TextSize = 14.000
@@ -2678,7 +2679,7 @@ function DiscordLib:Window(text)
 					Item.BackgroundColor3 = Color3.fromRGB(42, 44, 48)
 					Item.Size = UDim2.new(0, 379, 0, 29)
 					Item.AutoButtonColor = false
-					Item.Font = Enum.Font.Enum.Font.GothamSemibold
+					Item.Font = Enum.Font.Enum.Font.GothamMedium
 					Item.Text = ""
 					Item.TextColor3 = Color3.fromRGB(0, 0, 0)
 					Item.TextSize = 14.000
@@ -2694,7 +2695,7 @@ function DiscordLib:Window(text)
 					ItemText.BackgroundTransparency = 1.000
 					ItemText.Position = UDim2.new(0.0211081803, 0, 0, 0)
 					ItemText.Size = UDim2.new(0, 192, 0, 29)
-					ItemText.Font = Enum.Font.Enum.Font.GothamSemibold
+					ItemText.Font = Enum.Font.Enum.Font.GothamMedium
 					ItemText.TextColor3 = Color3.fromRGB(212, 212, 212)
 					ItemText.TextSize = 14.000
 					ItemText.TextXAlignment = Enum.TextXAlignment.Left
@@ -2769,7 +2770,7 @@ function DiscordLib:Window(text)
 					Item.BackgroundColor3 = Color3.fromRGB(42, 44, 48)
 					Item.Size = UDim2.new(0, 379, 0, 29)
 					Item.AutoButtonColor = false
-					Item.Font = Enum.Font.Enum.Font.GothamSemibold
+					Item.Font = Enum.Font.Enum.Font.GothamMedium
 					Item.Text = ""
 					Item.TextColor3 = Color3.fromRGB(0, 0, 0)
 					Item.TextSize = 14.000
@@ -2785,7 +2786,7 @@ function DiscordLib:Window(text)
 					ItemText.BackgroundTransparency = 1.000
 					ItemText.Position = UDim2.new(0.0211081803, 0, 0, 0)
 					ItemText.Size = UDim2.new(0, 192, 0, 29)
-					ItemText.Font = Enum.Font.Enum.Font.GothamSemibold
+					ItemText.Font = Enum.Font.Enum.Font.GothamMedium
 					ItemText.TextColor3 = Color3.fromRGB(212, 212, 212)
 					ItemText.TextSize = 14.000
 					ItemText.TextXAlignment = Enum.TextXAlignment.Left
@@ -2859,7 +2860,7 @@ function DiscordLib:Window(text)
 				ColorpickerTitle.BackgroundTransparency = 1.000
 				ColorpickerTitle.Position = UDim2.new(0, 5, 0, 0)
 				ColorpickerTitle.Size = UDim2.new(0, 200, 0, 29)
-				ColorpickerTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+				ColorpickerTitle.Font = Enum.Font.Enum.Font.GothamMedium
 				ColorpickerTitle.Text = "Colorpicker"
 				ColorpickerTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
 				ColorpickerTitle.TextSize = 14.000
@@ -3074,7 +3075,7 @@ function DiscordLib:Window(text)
 				TextboxTitle.BackgroundTransparency = 1.000
 				TextboxTitle.Position = UDim2.new(0, 5, 0, 0)
 				TextboxTitle.Size = UDim2.new(0, 200, 0, 29)
-				TextboxTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+				TextboxTitle.Font = Enum.Font.Enum.Font.GothamMedium
 				TextboxTitle.Text = text
 				TextboxTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
 				TextboxTitle.TextSize = 14.000
@@ -3108,7 +3109,7 @@ function DiscordLib:Window(text)
 				TextBox.BackgroundTransparency = 1.000
 				TextBox.Position = UDim2.new(0.0178571437, 0, 0, 0)
 				TextBox.Size = UDim2.new(0, 377, 0, 32)
-				TextBox.Font = Enum.Font.Enum.Font.GothamSemibold
+				TextBox.Font = Enum.Font.Enum.Font.GothamMedium
 				TextBox.PlaceholderColor3 = Color3.fromRGB(91, 95, 101)
 				TextBox.PlaceholderText = placetext
 				TextBox.Text = ""
@@ -3154,7 +3155,7 @@ function DiscordLib:Window(text)
 				Label.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
 				Label.Size = UDim2.new(0, 401, 0, 30)
 				Label.AutoButtonColor = false
-				Label.Font = Enum.Font.Enum.Font.GothamSemibold
+				Label.Font = Enum.Font.Enum.Font.GothamMedium
 				Label.Text = ""
 				Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Label.TextSize = 14.000
@@ -3165,7 +3166,7 @@ function DiscordLib:Window(text)
 				LabelTitle.BackgroundTransparency = 1.000
 				LabelTitle.Position = UDim2.new(0, 5, 0, 0)
 				LabelTitle.Size = UDim2.new(0, 200, 0, 30)
-				LabelTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+				LabelTitle.Font = Enum.Font.Enum.Font.GothamMedium
 				LabelTitle.Text = text
 				LabelTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
 				LabelTitle.TextSize = 14.000
@@ -3187,7 +3188,7 @@ function DiscordLib:Window(text)
 				Keybind.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
 				Keybind.Size = UDim2.new(0, 401, 0, 30)
 				Keybind.AutoButtonColor = false
-				Keybind.Font = Enum.Font.Enum.Font.GothamSemibold
+				Keybind.Font = Enum.Font.Enum.Font.GothamMedium
 				Keybind.Text = ""
 				Keybind.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Keybind.TextSize = 14.000
@@ -3198,7 +3199,7 @@ function DiscordLib:Window(text)
 				KeybindTitle.BackgroundTransparency = 1.000
 				KeybindTitle.Position = UDim2.new(0, 5, 0, 0)
 				KeybindTitle.Size = UDim2.new(0, 200, 0, 30)
-				KeybindTitle.Font = Enum.Font.Enum.Font.GothamSemibold
+				KeybindTitle.Font = Enum.Font.Enum.Font.GothamMedium
 				KeybindTitle.Text = text
 				KeybindTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
 				KeybindTitle.TextSize = 14.000
@@ -3210,7 +3211,7 @@ function DiscordLib:Window(text)
 				KeybindText.BackgroundTransparency = 1.000
 				KeybindText.Position = UDim2.new(0, 316, 0, 0)
 				KeybindText.Size = UDim2.new(0, 85, 0, 30)
-				KeybindText.Font = Enum.Font.Enum.Font.GothamSemibold
+				KeybindText.Font = Enum.Font.Enum.Font.GothamMedium
 				KeybindText.Text = presetbind.Name
 				KeybindText.TextColor3 = Color3.fromRGB(127, 131, 137)
 				KeybindText.TextSize = 14.000
